@@ -21,14 +21,17 @@ console.log(fullName);
 
 //how to do template literal?
 
+let fullName1 = `${firstName} ${lastName}`;
+console.log(fullName1);
+
 
 // Exercise 3
 
-const city = "Culver City"
-const pastime = "playing sports and traveling"
+const city = "Culver City";
+const pastime = "playing sports and traveling";
 
 let myStory = "Hi, my name is " + fullName + "! " + "I am from " + city + ". " + "My favorite things to do are " + pastime + ".";
-console.log(myStory)
+console.log(myStory);
 
 let myStory1 = `\Hi, my name is ${fullName}! I am from ${city}. My favorite things to do are ${pastime}.`;
-console.log(myStory1)
+console.log(myStory1);
